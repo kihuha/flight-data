@@ -90,6 +90,10 @@ The SQL scripts in [sql_statements](sql_statements) allow you to load the cleane
 - Airports and routes without valid IATA/ICAO codes are excluded to keep joins stable.
 - Distances are approximate great-circle calculations and are intended for UI displays, not operational planning.
 
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
 ## Ports extended reference
 
 The airport dataset is based on the OpenFlights ports-extended format. Below is the field reference used during cleaning and validation.
